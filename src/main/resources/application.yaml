@@ -1,0 +1,18 @@
+# \u5E94\u7528\u670D\u52A1 WEB \u8BBF\u95EE\u7AEF\u53E3
+server:
+  port: 8087
+
+spring:
+  # \u5E94\u7528\u540D\u79F0
+  application:
+    name: updatephone
+  # \u914D\u7F6E\u6570\u636E\u6E90\u4FE1\u606F
+  datasource:
+    # \u914D\u7F6E\u6570\u636E\u6E90\u7C7B\u578B
+    type: com.zaxxer.hikari.HikariDataSource
+    # \u914D\u7F6E\u8FDE\u63A5\u6570\u636E\u5E93\u4FE1\u606F
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/qlu?serverTimezone=UTC
+    username: root
+    password: 123456
+
